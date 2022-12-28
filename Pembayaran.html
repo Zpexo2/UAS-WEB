@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+     <!-- Optional JavaScript -->
+     <script src="bootstrap/js/bootstrap.bundle.js"></script>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Pembayaran</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: silver;
+        }
+        form{
+            width: 600px;
+            margin: 100px auto 0 auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 #30475e, 0 4px 8px 0 #30475e;
+            color: black;
+        }
+        h1{
+            text-align: center;
+        }
+        .box1{
+            width: 100%;
+            padding: 10px;
+            border: 0;
+            border-radius: 15px;
+            box-sizing: border-box;
+            margin-top: 10px 0 15px 0;
+        }
+        .tombol_p{
+            margin-top: 20px;
+            width: 49%;
+            padding: 10px;
+            border: 0;
+            border-radius: 15px;
+            background-color: #30475e;
+            font-size: 18px;
+            color: #fff;
+        }
+        label{
+            margin-top: 20px;
+        }
+        .induk{
+            display: flex;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="action">
+        <h1>PEMBAYARAN</h1>
+        <label for="name">Nama</label><br>
+        <input class="box1" type="text" name="name" id="name" placeholder="Enter Name"><br>
+        <label for="Pemail">Methods</label><br>
+        <input class="box1" type="email" name="email" id="email" placeholder="Enter Email"><br>
+        <label for="cardnum">Card Number</label><br>
+        <input class="box1" type="text" name="number" id="number" placeholder="Enter Card Number"><br>
+        <div class="induk">
+            <img src="gambar/bca.png" alt="" width="30px" height="30px" style="margin-left: 10px;">
+            <img src="gambar/paypal_PNG7.png" alt="" width="60px" height="30px" style="margin-left: 10px;">
+            <img src="gambar/mandiri.jpg" alt="" width="60px" height="30px" style="margin-left: 10px;">
+            <img src="gambar/BNI.png" alt="" width="60px" height="30px" style="margin-left: 10px;">
+        </div>
+        <label for="Alamat">Alamat</label><br>
+        <textarea style="border-radius: 10px;" name="Alamat" id="Alamat" cols="73" rows="5" placeholder="Isi alamat pengantaran"></textarea>
+        <button class="tombol_p" type="button">PayNow!</button>
+        <button class="tombol_p" type="button"><a href="C:\Users\mirza\OneDrive\Dokumen\Tugas 6\Gallery.html" style="text-decoration: none; color:#fff">Close</a></button>
+    </form>
+    <br>
+    <br>
+</body>
+</html>

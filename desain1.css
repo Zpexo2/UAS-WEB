@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,500&display=swap");
+header{
+    background-color: #e3e6f3;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    /* position: fixed; */
+    z-index: 1000;
+    
+}
+.element{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border-radius: 40px;
+    margin-top: 7px;
+}
+
+.tombol1{
+    float: right;
+    margin-top: 15px;
+    margin-right: 6px;    
+    
+}
+
+
+.kanan{
+    float: right;
+    display: block;
+}
+
+
+.logo{
+    height: 70px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.subjudul{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.baju{
+    width: 300px;
+    height: 340px;
+    text-align: left;
+    border-radius: 20px;
+    border: 0;
+    margin-right: 10px;
+}
+
+
+.induk{
+    display: flex;
+    justify-content: center;
+}
+
+
+.detail{
+    margin-top: 10px;
+}
+
+
+.f1{
+    background-color: silver;
+    height: 100px;
+}
+
+
+.element1{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border-radius: 6px;
+    
+}
+
+.sub{
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 45px;
+}
+
+
+
+.element2{
+    height: 40px;
+    width: 46px;
+    padding-top: 5px;
+    padding-left: 6px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+footer{
+    padding: 5px 9px;
+    text-align: center;
+    background: #e3e6f3;
+    margin-top: 0px;
+    clear: both;
+    height: 40px;
+}
+
+
+.Ajudul{
+    background-color: silver;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.tlp{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+
+.search{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.btnModal{
+    margin-left: 130px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+}
+
+
+.btnModal1{
+    border-radius: 20px;
+}
+
+.headGL{
+    background-image: url(gambar/city.gif);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logoGL{
+    border-radius: 80px;
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+
+.induk-clr{
+    display: flex;
+}
+
+
+
+.Deskripsi{
+    margin-left: 7px;
+}
+
+
+.induk-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tombol-silver{
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    background-color: silver;
+}
+
+.tombol-grey{
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    background-color: grey;
+}
+
+.pengubah{
+    text-decoration: none;
+    color: black;
+}
+.header2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 40px 0;
+}
+.search{
+    width: 500px;
+    border-radius: 10px;
+}
+.logo2{
+    margin-left: 455px;
+    margin-top: 7px;
+    height: 85px;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(gambar/walpapper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.home-text h1 {
+    font-style: "Poppins", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #e3e6f3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 60px; 
+}
+.home-text p {
+
+    font-style: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 0.5rem 0 1.4rem;
+    margin-left: 60px;
+}
+.btn-about1{
+    margin-top: 15px;
+    margin-left: 60px; 
+    height: 50px;
+    width: 150px;
+}
+.about{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+.about-img img {
+    width: 600px;
+    height: 703px;
+}
+.about-text h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.about-text p {
+    font-size: 20px;
+    margin: 0.5rem 0 1.1rem;
+    font-weight: 500;
+}
+.home-img{
+    margin-left: 20px;
+}
+.heading {
+    align-items: center;
+}
+.heading h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-top: 0.1px;
+}
+.icon a .bx {
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 10px;
+    background: var(--second-color);
+    border-radius: 0.2rem;
+}
+.Story{
+    margin-left: 50px;
+}
+.Contact{
+    display: flex;
+}
+.Support{
+    margin-left: 50px;
+    
+}
+.Support li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+@media (min-width: 600px) and (max-width: 1000px){
+    .header2{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .search{
+        width: 230px;
+        border-radius: 10px;
+    }
+    .logo{
+        height: 70px;
+        width: 105px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .f1{
+        background-color: silver;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .baju{
+        width: 300px;
+        height: 380px;
+        text-align: left;
+        border-radius: 20px;
+        border: 0;
+        margin-right: 10px;
+    }
+    .logo2{
+        margin-left: 150px;
+        margin-top: 7px;
+        height: 85px;
+    }
+    .tombol-silver{
+        height: 45px;
+        width: 100px;
+        border-radius: 20px;
+        border: 0;
+        background-color: silver;
+    }
+    
+    .tombol-grey{
+        height: 45px;
+        width: 100px;
+        border-radius: 20px;
+        border: 0;
+        background-color: grey;
+    }
+    
+}
